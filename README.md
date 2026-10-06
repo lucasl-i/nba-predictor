@@ -1,1 +1,1 @@
-# wnba-predictor
+# nba-predictor
