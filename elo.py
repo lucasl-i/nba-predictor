@@ -36,5 +36,6 @@ for index, row in games.iterrows():
     ratings[row["team_name"]] = home_updated[0]
     ratings[row["opponent_team_name"]] = home_updated[1]
 
-print(len(ratings))
-print(ratings.keys())
+print(len(games))                              # number of games
+print(correct / len(games))                    # accuracy
+print(sum(ratings.values()) / len(ratings))    # average rating
